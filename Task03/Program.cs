@@ -4,33 +4,24 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-
-
-
-
-int getNum(string text) {
+int getNum(string text)
+{
     Console.Write(text);
     int num = int.Parse(Console.ReadLine());
     
     return num;
 }
-
 void OutNumbers(int num)
 {
     int i = 1;
-    while (i < num) {
+    while (i < num) 
+    {
         Console.Write(Math.Pow (i, 3) + ", ");   
         i++;
     }
     Console.Write (Math.Pow (num, 3)) ; 
 }
-
-/*
-@description 
-@param  ввод данных от пользователя
-@return
-*/
 int number = getNum("Введите число:");
-
-//  Определить
 OutNumbers(number);
+
+
