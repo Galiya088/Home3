@@ -12,9 +12,9 @@ void CheckingNumber(string number)
 {
   if (number[0] == number[4] || number[1] == number[3]) 
   {
-    Console.WriteLine($"Ваше число: {number} - палиндром.");
+    Console.WriteLine($"Число: {number} -> палиндром.");
   }
-  else Console.WriteLine($"Ваше число: {number} - не палиндром.");
+  else Console.WriteLine($"Число: {number} -> не палиндром.");
 }
  CheckingNumber(number);
 
